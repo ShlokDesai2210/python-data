@@ -1,0 +1,36 @@
+Microsoft Windows [Version 10.0.19045.2673]
+(c) Microsoft Corporation. All rights reserved.
+
+D:\shlok desai\git_test>git --version
+git version 2.50.1.windows.1
+
+D:\shlok desai\git_test>git config --global https.proxy 192.168.10.251:808
+
+D:\shlok desai\git_test>git config --global --get https.proxy
+192.168.10.251:808
+
+D:\shlok desai\git_test>git config --global --unset https.proxy
+
+D:\shlok desai\git_test>git config --global user.name "shlokdesai2210"
+
+D:\shlok desai\git_test>git config --global user.email "shlokdesai2210@gmail.com"
+
+D:\shlok desai\git_test>git config --list --global
+https.proxy=192.168.10.251:808
+user.name=shlokdesai2210
+user.email=shlokdesai2210@gmail.com
+
+D:\shlok desai\git_test>git config --global http.proxy http://192.168.10.251:808
+
+D:\shlok desai\git_test>git config --list --global
+https.proxy=192.168.10.251:808
+user.name=shlokdesai2210
+user.email=shlokdesai2210@gmail.com
+http.proxy=http://192.168.10.251:808
+
+D:\shlok desai\git_test>mkdir git_shlok
+
+D:\shlok desai\git_test>cd git_shlok
+
+D:\shlok desai\git_test\git_shlok>git init
+Initialized empty Git repository in D:/shlok desai/git_test/git_shlok/.git/
